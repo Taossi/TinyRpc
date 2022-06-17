@@ -5,7 +5,7 @@ import (
 	"encoding/gob"
 )
 
-// data transported from server and client
+// define data format transported from server and client
 type Data struct {
 	Name string        // service name
     Args []interface{} // request's or response's body except error
